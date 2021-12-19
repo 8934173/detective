@@ -6,9 +6,9 @@
       </div>
     </el-col>
     <el-col :span="12">
-      <el-menu :default-active="'1'" mode="horizontal">
-        <el-menu-item index="1">产品</el-menu-item>
-        <el-menu-item index="2">可视化产品</el-menu-item>
+      <el-menu :default-active="'1'" mode="horizontal" router>
+        <el-menu-item index="/">产品</el-menu-item>
+        <el-menu-item index="/base">可视化产品</el-menu-item>
         <el-menu-item index="3">定制</el-menu-item>
       </el-menu>
     </el-col>
